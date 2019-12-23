@@ -391,7 +391,7 @@ flags.DEFINE_float('learning_rate', 0.001, 'Initial learning rate.')
 
 # For training and validating.
 flags.DEFINE_integer('gpu', 0, 'Which gpu to use.')  # -1: cpu
-flags.DEFINE_integer('iters', 2, 'Number of iterations to train.')
+flags.DEFINE_integer('iters', 10, 'Number of iterations to train.')
 flags.DEFINE_integer('iters_val_start', 2,
                      'Number of iterations to start validation.')
 flags.DEFINE_integer('iters_val_every', 2, 'Frequency of validation.')
