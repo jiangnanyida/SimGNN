@@ -397,7 +397,7 @@ flags.DEFINE_integer('iters_val_start', 2,
 flags.DEFINE_integer('iters_val_every', 2, 'Frequency of validation.')
 
 # For testing.
-flags.DEFINE_boolean('plot_results', True,
+flags.DEFINE_boolean('plot_results', False,
                      'Whether to plot the results '
                      '(involving all baselines) or not.')
 
